@@ -1902,9 +1902,9 @@ html.static-shark-ready .PWrapper.open{opacity:1;visibility:visible;pointer-even
 }
 
 .PWrapper #selOverlay {
-  left: .005vw !important;
+  left: -.02vw !important;
   right: auto !important;
-  width: calc(100% - .025vw) !important;
+  width: 100% !important;
   border-radius: .4vw !important;
 }
 </style>
