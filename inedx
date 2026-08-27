@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en" data-theme="blue">
 <head>
@@ -1895,6 +1894,19 @@ html.static-shark-ready .PWrapper.open{opacity:1;visibility:visible;pointer-even
 .vw-hub-cat{font-size:9.5px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#0e99de;margin-bottom:4px;}
 .vw-hub-w{font-size:14px;font-weight:700;max-width:150px;margin:0 auto;}
 .vw-hub-i{margin-top:10px;font-size:11.5px;font-weight:700;color:rgba(255,255,255,.9);}
+</style>
+<style id="selected-bubble-fix">
+/* In-game selection fix: keep the bubble close to the panel edges and reduce its radius. */
+.PWrapper .PTabs {
+  border-radius: .4vw .4vw var(--menu-radius) var(--menu-radius) !important;
+}
+
+.PWrapper #selOverlay {
+  left: .005vw !important;
+  right: auto !important;
+  width: calc(100% - .025vw) !important;
+  border-radius: .4vw !important;
+}
 </style>
 </head>
 <body>
